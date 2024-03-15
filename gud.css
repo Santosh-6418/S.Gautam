@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .top_nav {
+    background-color: rgb(107, 164, 159);
+    color: #000000;
+    justify-content: space-between;
+    padding: 5px 6%;
+  }
+  
+  .top_nav,
+  .contacts {
+    display: flex;
+  }
+  
+  .phone-no,
+  .email-bar {
+    padding: 10px;
+  }
+  
+  .social-links {
+    padding: 10px;
+  }
+  
+  .fa-facebook,
+  .fa-twitter,
+  .fa-instagram,
+  .fa-linkedin {
+    padding: 5px;
+    color: #000000;
+  }
+  
+  .nav_bar {
+    background-color: rgb(122, 196, 187);
+    color: #000;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav_bar h2{
+    font-size:28px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .nav_elements ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  li {
+    margin: 10px;
+    font-weight: 400px;
+    border-right: 2px solid #000;
+    padding-right: 10px;
+  }
+  
+  .nav_elements li:hover{
+    color:rgb(231, 231, 231);
+  }
+  
+  /* 
+  .box {
+    height: 160px;
+    width: 160px;
+    background-color: red;
+    position: relative;
+    margin-left: 50px;
+  } */
+  
+  /* .box1 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(120, 219, 214);;
+    position: absolute;
+  } */
+  .overley {
+    background: url(./istockphoto-1001279256-612x612.jpg ) no-repeat;
+    background-size: cover;
+    height: 85vh;
+    opacity: 0.45;
+  }
+  .hero_section {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    color: #d8e8ef;
+  }
+  .hero_section .container {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 0;
+    right: 0;
+  }
+  
+  .hero_section h1 {
+    font-size: 40px;
+    font-variant: small-caps;
+    padding: 20px 0px;
+  }
+  
+  .hero_section h1 span {
+    color: rgb(120, 219, 214);;
+  }
+  
+  .hero_section h3 {
+    font-size: 25px;
+    font-style: italic;
+  }
+  .hero_section p {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding: 20px 0px;
+  }
+  .buttons button {
+    margin: 30px;
+    padding: 5px 10px;
+    background-color: rgb(114, 110, 110); 
+    border: 2px solid rgb(113, 205, 194);
+    border-radius: 10px;
+    color: rgb(113, 205, 194);
+    font-size: 17px;
+    font-weight: 600px;
+  }
+  .buttons button :hover {
+    background-color: #fff;
+  }
+  
+  /* about section styling start */
+  .about_section {
+    padding: 50px 20px;
+  }
+  .about_section .container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+  .about_section .image img{
+    max-width: 459px;
+    margin: auto;
+    padding: 50px 20px;
+  }
+  .about_content {
+    padding: 10px 30px;
+  }
+  .about_content .head h2 {
+    font-size: 45px;
+    color: rgb(92, 182, 179);
+    font-weight: bold;
+  }
+  .about_content .head {
+    display: flex;
+    align-items: center;
+  }
+  .about_content .head .line {
+    height: 2px;
+    width: 80px;
+    background-color:black;
+  }
+  .about_content .content p {
+    font: 17px;
+    color: #100808;
+    line-height: 30px;
+    padding: 20px 0px;
+  }
+  .about_content button {
+    padding: 5px 10px;
+    background-color: white;
+    border: 2px solid rgb(113, 205, 194);
+    border-radius: 10px;
+    color: rgb(113, 205, 194);
+    font-size: 17px;
+    font-weight: 600px;
+  }
+  /* about section styling ends */
+  
+  /* Resume section styling starts */
+  .resume_section {
+    padding: 50px 10px;
+  }
+  .head h2 {
+    font-size: 38px;
+    text-align: center;
+    color: rgb(92, 182, 179);
+  }
+  .underline {
+    height: 2px;
+    width: 100px;
+    background-color:black;
+    margin: auto;
+  }
+  .resume_section .container {
+    width:  95%;
+    margin: 30px auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .resume_card{
+      width: 26%;
+      border: 2px solid rgb(233,241,0);
+      padding: 20px;
+      border-radius: 15px;
+  }
+  .card_head h3{
+      font-size: 28px;
+      color: rgb(122, 206, 202);
+  }
+  .card_head h3::after{  /* For creating blank division using ccss */
+      content: "";
+      width: 40px;
+      border-bottom: 3px solid red;
+      margin: 5px 0px;
+      display: block;
+  }
+  .resume_card .date{
+      font-size: 19px;
+      color: rgb(134, 141, 147);
+      padding: 11px 0px;
+  }
+  .resume_card .card_title{
+      color:  rgb(120, 219, 214);
+      font-size: 19px;
+  }
+  .resume_card p{
+     font-style: italic; 
+     text-align: justify;
+     padding: 10px 0px;
+     color: #4c4e50;
+  }
+  .html{
+    width: 85%;
+    
+
+  }
